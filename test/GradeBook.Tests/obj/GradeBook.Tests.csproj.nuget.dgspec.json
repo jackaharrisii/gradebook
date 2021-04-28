@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jacka\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "C:\\Users\\jacka\\gradebook\\test\\gradebook.tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\jacka\\gradebook\\src\\Gradebook\\Gradebook.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\jacka\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "C:\\Users\\jacka\\gradebook\\test\\gradebook.tests\\GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jacka\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jacka\\gradebook\\test\\gradebook.tests\\GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "C:\\Users\\jacka\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectPath": "C:\\Users\\jacka\\gradebook\\test\\gradebook.tests\\GradeBook.Tests.csproj",
         "packagesPath": "C:\\Users\\jacka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jacka\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "outputPath": "C:\\Users\\jacka\\gradebook\\test\\gradebook.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jacka\\AppData\\Roaming\\NuGet\\NuGet.Config",

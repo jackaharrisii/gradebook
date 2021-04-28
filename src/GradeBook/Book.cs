@@ -45,10 +45,20 @@ namespace GradeBook
             return lowGrade;
         }
 
-        public void ShowStatistics(){
-            System.Console.WriteLine($"The average grade is {AvgGrade():N1}");
-            System.Console.WriteLine($"The highest grade is {HighGrade():N1}");
-            System.Console.WriteLine($"The lowest grade is {LowGrade():N1}");
+        public Statistics GetStatistics()
+        {
+            Statistics result = new Statistics();
+            result.Average = AvgGrade();
+            result.High = HighGrade();
+            result.Low = LowGrade();
+
+            return result;
+        }
+
+        public void ShowStatistics(Statistics stats){
+            System.Console.WriteLine($"The average grade is {stats.Average}");
+            System.Console.WriteLine($"The highest grade is {stats.High}");
+            System.Console.WriteLine($"The lowest grade is {stats.Low}");
         }
     }
 }
