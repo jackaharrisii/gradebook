@@ -5,18 +5,18 @@ namespace GradeBook
     public class Book
     {
         private List<double> grades;
-        private string bookName;
+        public string BookName;
         
         public Book(string name)
         {
             grades = new List<double>(){};
-            this.bookName = name;
+            BookName = name;
         }
 
         public Book()
         {
             grades = new List<double>(){};
-            this.bookName = "unnamed";
+            BookName = "unnamed";
         }
 
         public void AddGrade(double newGrade){
